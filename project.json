@@ -1,13 +1,13 @@
 {
     "default": {
         "core": "submodule",
-        "distribution_folder": "./deploy",
+        "distribution_folder": "1",
         "flare": {},
-        "sources_folder": "./sources",
-        "vi": "v3.0.9"
+        "sources_folder": "1",
+        "vi": "submodule"
     },
     "develop": {
-        "application_name": "abc",
-        "version": "01"
+        "application_name": "adkwdkw",
+        "version": "abc"
     }
 }

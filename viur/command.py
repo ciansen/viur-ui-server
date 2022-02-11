@@ -1,5 +1,5 @@
 from typing import Callable
-from .utils import Singleton
+from utils import Singleton
 from .context import ViurCommandContext
 
 import logging

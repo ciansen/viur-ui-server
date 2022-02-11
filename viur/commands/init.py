@@ -7,8 +7,17 @@ from ..context import ViurCommandContext
 #	print("Calling hello!", level)
 
 @ViurCommand()
-def init(context: ViurCommandContext):
+def init(context: ViurCommandContext, name: str):
 #	hello(level=1000)
+	## Asking for project.conf
+	context.send_line("y")
+	context.send_line("1")
+	context.send_line("1")
+	context.send_line(name)
+	context.send_line("abc")
+	context.send_line("n")
+	context.send_line("n")
+	context.send_line("n")
 	return "Hello"
 
 @ViurCommand()
