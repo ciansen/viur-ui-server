@@ -1,2 +1,4 @@
-from .bp import *
-from .projects import *
+from .default import default
+from .project import project
+
+routes = [default, project]
